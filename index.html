@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MoShenGuo - Senior iOS & Flutter Developer</title>
+<style>
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#111; }
+.container { max-width:1000px; margin:20px auto; padding:20px; background:#fff; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.05); }
+h1 { text-align:center; color:#2b6cb0; }
+h2 { margin-top:30px; border-bottom:2px solid #2b6cb0; padding-bottom:4px; color:#2c5282; }
+p { line-height:1.6; margin-top:8px; }
+.skills { display:flex; flex-wrap:wrap; gap:15px; margin-top:15px; }
+.skill { width:200px; }
+.skill-name { font-weight:bold; margin-bottom:4px; }
+.progress-bar { width:100%; background:#e2e8f0; border-radius:6px; overflow:hidden; height:12px; }
+.progress { height:12px; background:#2b6cb0; }
+.projects { display:flex; flex-direction:column; gap:30px; margin-top:20px; }
+.project { background:#f0f4f8; padding:15px; border-radius:8px; }
+.project img { max-width:100%; border-radius:6px; margin-top:6px; cursor:pointer; transition: transform 0.2s; }
+.project img:hover { transform: scale(1.05); }
+.gallery { display:flex; gap:10px; flex-wrap:wrap; margin-top:10px; }
+video { max-width:100%; margin-top:10px; border-radius:6px; }
+a.button { display:inline-block; background:#2b6cb0; color:#fff; padding:8px 14px; border-radius:6px; text-decoration:none; margin-top:10px; }
+footer { text-align:center; margin-top:40px; font-size:13px; color:#555; }
+.modal { display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.8); justify-content:center; align-items:center; }
+.modal img { max-width:90%; max-height:90%; border-radius:10px; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>MoShenGuo</h1>
+<p><strong>Senior iOS & Flutter Developer</strong> with 10+ years experience delivering high-quality mobile apps, SDKs, and cross-platform solutions.</p>
+
+<h2>Technical Expertise</h2>
+<div class="skills">
+<div class="skill"><div class="skill-name">iOS (Swift, Obj-C)</div><div class="progress-bar"><div class="progress" style="width:95%"></div></div></div>
+<div class="skill"><div class="skill-name">Flutter & Dart</div><div class="progress-bar"><div class="progress" style="width:90%"></div></div></div>
+<div class="skill"><div class="skill-name">React Native</div><div class="progress-bar"><div class="progress" style="width:85%"></div></div></div>
+<div class="skill"><div class="skill-name">Backend & APIs</div><div class="progress-bar"><div class="progress" style="width:80%"></div></div></div>
+<div class="skill"><div class="skill-name">Hybrid Apps / WKWebView</div><div class="progress-bar"><div class="progress" style="width:85%"></div></div></div>
+<div class="skill"><div class="skill-name">C / C++ / Kotlin / Python / Shell</div><div class="progress-bar"><div class="progress" style="width:80%"></div></div></div>
+<div class="skill"><div class="skill-name">CI/CD & DevOps</div><div class="progress-bar"><div class="progress" style="width:90%"></div></div></div>
+<div class="skill"><div class="skill-name">Bluetooth / IoT / MQTT</div><div class="progress-bar"><div class="progress" style="width:85%"></div></div></div>
+</div>
+
+<h2>Projects & Highlights</h2>
+
+<div class="projects">
+<div class="project">
+<strong>JCRing</strong>
+<p>Health & fitness wearable app. Login/registration, sleep analysis, exercise tracking, SDK encapsulation, crash reporting, Flutter integration.</p>
+<div class="gallery">
+<img src="images/test1.png" alt="JCRing Screenshot 1" onclick="openModal(this.src)">
+<img src="images/test2.png" alt="JCRing Screenshot 2" onclick="openModal(this.src)">
+<img src="images/test3.png" alt="JCRing Screenshot 3" onclick="openModal(this.src)">
+<img src="images/test4.png" alt="JCRing Screenshot 4" onclick="openModal(this.src)">
+<img src="images/test5.png" alt="JCRing Screenshot 5" onclick="openModal(this.src)">
+<img src="images/test6.png" alt="JCRing Screenshot 6" onclick="openModal(this.src)">
+<img src="images/test7.png" alt="JCRing Screenshot 7" onclick="openModal(this.src)">
+<img src="images/test8.png" alt="JCRing Screenshot 8" onclick="openModal(this.src)">
+<img src="images/test9.png" alt="JCRing Screenshot 9" onclick="openModal(this.src)">
+<img src="images/test10.png" alt="JCRing Screenshot 10" onclick="openModal(this.src)">
+<img src="images/test11.png" alt="JCRing Screenshot 11" onclick="openModal(this.src)">
+<img src="images/test12.png" alt="JCRing Screenshot 12" onclick="openModal(this.src)">
+<img src="images/test13.png" alt="JCRing Screenshot 13" onclick="openModal(this.src)">
+<img src="images/test14.png" alt="JCRing Screenshot 14" onclick="openModal(this.src)">
+<img src="images/test15.png" alt="JCRing Screenshot 15" onclick="openModal(this.src)">
+<img src="images/test16.png" alt="JCRing Screenshot 16" onclick="openModal(this.src)">
+</div>
+</div>
+<div class="project">
+<strong>ms-data-sdk(React Native/Flutter)</strong>
+<p>Flutter/React Native SDK development, including data parsing, Bluetooth scanning, connection, command sending, and receiving functionalities, for client reference and demonstration purposes.</p>
+<div class="gallery">
+<img src="images/test21.png" alt="JCVital Screenshot 21" onclick="openModal(this.src)">
+</div>
+<video controls>
+  <source src="videos/RPReplay_Final1760502905.MP4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
+<div class="project">
+<strong>JCVital (Flutter)</strong>
+<p>Full Flutter framework from scratch, Bluetooth modules, unified DB, MQTT, OTA updates, hybrid H5, crash reporting, internationalization.</p>
+<div class="gallery">
+<img src="images/jcvital1.png" alt="JCVital Screenshot 1" onclick="openModal(this.src)">
+<img src="images/jcvital2.png" alt="JCVital Screenshot 2" onclick="openModal(this.src)">
+</div>
+<video controls>
+  <source src="videos/jcvital_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
+
+<div class="project">
+<strong>Huawei Smart Life App</strong>
+<p>IoT device management platform. Developed Laffite smart glasses features, data parsing, analytics charts, Swift & C++ SDK integration.</p>
+<div class="gallery">
+<img src="images/test17.png" alt="JCRing Screenshot 17" onclick="openModal(this.src)">
+<img src="images/test18.png" alt="JCRing Screenshot 18" onclick="openModal(this.src)">
+<img src="images/test19.png" alt="JCRing Screenshot 19" onclick="openModal(this.src)">
+<img src="images/test20.png" alt="JCRing Screenshot 20" onclick="openModal(this.src)">
+</div>
+</div>
+</div>
+
+<h2>Contact & Hire Me</h2>
+<p>Feel free to reach out via Fiverr for professional mobile app development.</p>
+<a class="button" href="https://www.fiverr.com/" target="_blank">Message me on Fiverr</a>
+
+<footer>
+<p>© 2025 MoShenGuo | GitHub: <a href="https://github.com/moshenguo" target="_blank">github.com/moshenguo</a></p>
+</footer>
+</div>
+
+<!-- Modal for image preview -->
+<div class="modal" id="imgModal" onclick="closeModal()">
+  <img id="modalImg">
+</div>
+
+<script>
+function openModal(src){
+  var modal = document.getElementById('imgModal');
+  var modalImg = document.getElementById('modalImg');
+  modal.style.display = 'flex';
+  modalImg.src = src;
+}
+function closeModal(){
+  document.getElementById('imgModal').style.display = 'none';
+}
+</script>
+
+</body>
+</html>
